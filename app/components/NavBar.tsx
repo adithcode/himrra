@@ -25,7 +25,7 @@ export default function NavBar() {
         <a
           href="/"
           className={`nav-logo-wrap relative transition-all duration-700 flex-shrink-0 ${
-            scrolled ? 'h-6 w-24 md:h-8 md:w-32' : 'h-10 w-32 md:h-12 md:w-40'
+            scrolled ? 'h-5 w-24 md:h-6 md:w-32' : 'h-8 w-32 md:h-10 md:w-40'
           }`}
           aria-label="HIMRRA home"
         >

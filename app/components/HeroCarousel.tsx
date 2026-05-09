@@ -125,7 +125,7 @@ export default function HeroCarousel() {
             key={`content-${current}`}
             className="max-w-3xl space-y-6 md:space-y-8 fade-in"
           >
-            <h1 className="text-[clamp(3.5rem,8vw,7rem)] font-serif font-light leading-[0.9] tracking-[-0.01em] text-white">
+            <h1 className="text-[clamp(4.5rem,11vw,9rem)] font-serif font-light leading-[0.85] tracking-[-0.02em] text-white">
               {slide.headline}
             </h1>
             <p className="text-base md:text-lg text-white/80 font-light leading-relaxed max-w-lg">
