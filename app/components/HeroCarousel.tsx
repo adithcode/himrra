@@ -19,12 +19,12 @@ const slides: Slide[] = [
     layout: 'left-dominant',
     headline: (
       <>
-        High-Altitude<br />
-        <em className="text-gold-light not-italic">Sourced</em>
+        Elevate Your<br />
+        <em className="text-gold-light not-italic">Vitality</em>
       </>
     ),
-    body: 'Harvested from the high Himalayas at 18,000 ft. Authentic, raw mineral resin.',
-    cta: { label: 'Our Sourcing', href: '#story' },
+    body: 'Pure Himalayan Shilajit resin, sustainably sourced and lab-verified for potency.',
+    cta: { label: 'Our Story', href: '#story' },
     number: '01',
   },
   {
@@ -33,11 +33,11 @@ const slides: Slide[] = [
     eyebrow: 'Third-Party Tested',
     headline: (
       <>
-        Pure<br />
-        <em className="text-gold-light not-italic">Resin</em>
+        Authentic<br />
+        <em className="text-gold-light not-italic">Sourcing</em>
       </>
     ),
-    body: 'Cold-filtered to preserve its natural mineral composition. Lab-verified for safety and potency.',
+    body: 'Harvested from the high Himalayas at 18,000 ft. Raw and pure mineral resin.',
     cta: { label: 'View Lab Results', href: '#benefits' },
     number: '02',
   },
@@ -47,11 +47,11 @@ const slides: Slide[] = [
     eyebrow: 'Daily Wellness',
     headline: (
       <>
-        The Daily<br />
-        <em className="text-gold-light not-italic">Routine</em>
+        The Purest<br />
+        <em className="text-gold-light not-italic">Mineral Resin</em>
       </>
     ),
-    body: 'Dissolve a small amount in warm water. A simple addition to your morning.',
+    body: '85+ ionic trace minerals and high fulvic acid for optimal absorption.',
     cta: { label: 'How to Use', href: '#ritual' },
     number: '03',
   },
@@ -169,12 +169,6 @@ export default function HeroCarousel() {
             key={`content-${current}`}
             className="flex flex-col items-center text-center space-y-6 md:space-y-8 fade-in"
           >
-            <span
-              className="text-[clamp(4rem,10vw,10rem)] font-serif font-light leading-none text-white/10 absolute bottom-32 left-1/2 -translate-x-1/2 select-none pointer-events-none"
-              aria-hidden="true"
-            >
-              {slide.number}
-            </span>
             {slide.eyebrow && (
               <p className="text-[10px] uppercase tracking-[0.25em] text-white/60 font-outfit font-medium">
                 {slide.eyebrow}
