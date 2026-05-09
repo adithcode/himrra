@@ -70,7 +70,7 @@ export default function NavBar() {
               : 'bg-white/10 text-white border border-white/20 hover:bg-white hover:text-[#1B3022] backdrop-blur-md'
           }`}
         >
-          Purchase
+          Procure
         </a>
       </div>
     </nav>

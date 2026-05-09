@@ -19,40 +19,40 @@ const slides: Slide[] = [
     layout: 'left-dominant',
     headline: (
       <>
-        Elevate Your<br />
-        <em className="text-gold-light not-italic">Vitality</em>
+        Summit<br />
+        <em className="text-gold-light not-italic">Sourced</em>
       </>
     ),
-    body: 'Pure Himalayan Shilajit resin, sustainably sourced and lab-verified for potency.',
-    cta: { label: 'Our Story', href: '#story' },
+    body: 'Harvested at 18,000 feet, where the air is thin and the mineral density is unmatched. Primal strength from the high Himalayas.',
+    cta: { label: 'The Source', href: '#story' },
     number: '01',
   },
   {
     image: '/images/banner_resin.png',
     layout: 'right-editorial',
-    eyebrow: 'Third-Party Tested',
+    eyebrow: '60-Day Cold Extraction',
     headline: (
       <>
-        Authentic<br />
-        <em className="text-gold-light not-italic">Sourcing</em>
+        Gold of the<br />
+        <em className="text-gold-light not-italic">Mountains</em>
       </>
     ),
-    body: 'Harvested from the high Himalayas at 18,000 ft. Raw and pure mineral resin.',
-    cta: { label: 'View Lab Results', href: '#benefits' },
+    body: 'Pure, raw mineral resin, extracted through a slow 60-day cold-water ritual to preserve every ionic trace mineral.',
+    cta: { label: 'Our Process', href: '#benefits' },
     number: '02',
   },
   {
     image: '/images/banner_ritual.png',
     layout: 'centered-numerical',
-    eyebrow: 'Daily Wellness',
+    eyebrow: 'Daily Grounding',
     headline: (
       <>
-        The Purest<br />
-        <em className="text-gold-light not-italic">Mineral Resin</em>
+        Restored<br />
+        <em className="text-gold-light not-italic">Vitality</em>
       </>
     ),
-    body: '85+ ionic trace minerals and high fulvic acid for optimal absorption.',
-    cta: { label: 'How to Use', href: '#ritual' },
+    body: 'A single gram of ancient earth to ground your modern morning. Dissolve, stir, and reconnect.',
+    cta: { label: 'The Ritual', href: '#ritual' },
     number: '03',
   },
 ];
@@ -125,7 +125,6 @@ export default function HeroCarousel() {
             key={`content-${current}`}
             className="max-w-3xl space-y-6 md:space-y-8 fade-in"
           >
-            <div className="w-10 h-[1px] bg-gold" />
             <h1 className="text-[clamp(3.5rem,8vw,7rem)] font-serif font-light leading-[0.9] tracking-[-0.01em] text-white">
               {slide.headline}
             </h1>

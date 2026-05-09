@@ -158,7 +158,7 @@ export default function CartDrawer({
         {/* Header */}
         <div className="flex items-center justify-between px-6 py-5 border-b border-[#1B3022]/10 bg-white">
           <h2 className="text-[11px] uppercase tracking-[0.25em] text-[#1B3022] font-outfit font-medium">
-            {step === 'cart' ? 'Your Selection' : 'Shipping Details'}
+            {step === 'cart' ? 'Curated Selection' : 'Shipping Details'}
           </h2>
           <button 
             onClick={onClose}
@@ -290,7 +290,7 @@ export default function CartDrawer({
               onClick={handleCheckoutClick}
               className="w-full bg-[#1B3022] py-4 text-[10px] font-outfit font-medium uppercase tracking-[0.25em] text-[#F9F7F2] hover:bg-[#25422f] transition-colors"
             >
-              Checkout — {subtotalFormatted}
+              Finalize Details — {subtotalFormatted}
             </button>
           )}
 

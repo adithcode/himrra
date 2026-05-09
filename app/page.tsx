@@ -118,14 +118,14 @@ export default async function HomePage() {
             {/* Header Column */}
             <div className="sticky top-32">
               <p className="text-[10px] uppercase tracking-[0.25em] text-gold/80 font-outfit font-medium mb-6">
-                Uncompromising Quality
+                Mountain Provenance
               </p>
               <h2 className="text-[clamp(2.5rem,5vw,4.5rem)] font-serif font-light leading-[1] tracking-[-0.01em] mb-8">
-                Sourced from the<br />
+                Forged by the<br />
                 <em className="text-white/60 not-italic">High Himalayas</em>
               </h2>
               <p className="text-base text-white/70 font-light leading-relaxed max-w-sm">
-                Authentic Shilajit requires specific geological conditions to form. We source ours exclusively from pristine, high-altitude environments where mineral density is highest.
+                True Shilajit is a geological rarity. We source ours exclusively from pristine, high-altitude veins where mineral density has been concentrated over millennia.
               </p>
             </div>
 
@@ -199,7 +199,7 @@ export default async function HomePage() {
               </div>
 
               <p className="text-base text-[#1B3022]/70 font-light leading-relaxed">
-                Our flagship product. 100% pure Himalayan Shilajit resin, sustainably sourced and meticulously cold-filtered to preserve its complex mineral profile.
+                Our signature resin. 100% pure Himalayan Shilajit, meticulously cold-filtered over 60 days to preserve the complex ionic structure that heat extraction destroys.
               </p>
 
               {/* Spec row */}
@@ -245,18 +245,18 @@ export default async function HomePage() {
             {/* Text — Left */}
             <div className="space-y-8 md:space-y-10 order-2 lg:order-1 reveal-up">
               <p className="text-[10px] uppercase tracking-[0.25em] text-[#1B3022]/50 font-outfit font-medium">
-                Our Heritage
+                The Origin
               </p>
               <h2 className="text-[clamp(2.5rem,5vw,4.5rem)] font-serif font-light leading-[1] tracking-[-0.01em] text-[#1B3022]">
-                Sourced from the<br />
-                <em className="text-[#1B3022]/60 not-italic">Summit</em>
+                A Living Relic<br />
+                <em className="text-[#1B3022]/60 not-italic">of the Earth</em>
               </h2>
               <div className="space-y-6 text-base text-[#1B3022]/70 font-light leading-relaxed max-w-lg">
                 <p>
-                  Shilajit is a natural exudate formed over centuries by the slow decomposition of botanical material. Our resin is sourced directly from the highest points of the Himalayas, where the environment is untainted by modern pollutants.
+                  Formed over millennia as ancient botanical material was compressed beneath the crushing weight of the rising Himalayas, Shilajit is the earth’s most complex mineral offering.
                 </p>
                 <p>
-                  We partner directly with local high-altitude harvesting communities to ensure ethical sourcing practices and to maintain the absolute highest standard of purity from mountain to jar.
+                  We partner with traditional harvesting families who have worked these high-altitude veins for generations, ensuring that every jar of HIMRRA respects the mountain as much as it serves your body.
                 </p>
               </div>
             </div>
@@ -297,16 +297,16 @@ export default async function HomePage() {
             <div className="grid sm:grid-cols-3 gap-12 lg:gap-16 pt-2">
               {[
                 {
-                  title: 'Measure',
-                  desc: 'Take a pea-sized amount of resin using the provided measuring spoon.',
+                  title: 'The Measure',
+                  desc: 'Take a pea-sized portion of resin. A small amount carries the potency of the peaks.',
                 },
                 {
-                  title: 'Dissolve',
-                  desc: 'Stir the resin into warm water, milk, or your favorite morning tea until fully dissolved.',
+                  title: 'The Infusion',
+                  desc: 'Stir into warm spring water or herbal tea. Watch as the resin dissolves into a deep, amber tonic.',
                 },
                 {
-                  title: 'Consume',
-                  desc: 'Drink daily, ideally on an empty stomach in the morning for optimal absorption.',
+                  title: 'The Intake',
+                  desc: 'Drink in the morning, ideally on an empty stomach, to ground your day in primal energy.',
                 },
               ].map((step, idx) => (
                 <div key={idx} className="space-y-4">
